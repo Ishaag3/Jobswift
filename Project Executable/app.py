@@ -8,7 +8,7 @@ palm.configure(api_key=creds.API_KEY)
 #Define the model to be used
 model_name = 'models/text-bison-001'
 
-#Function to generate resume
+#Function to generate resume 
 def generate_resume(name, experience, skills, projects, education, awards):
     prompt = f"My name is {name}. I have {experience} years of experience in {skills}."
     prompt += "\n\nProjects:\n{projects}\n\nEducation:\n{education}\n\nAwards and Recognition:\n{awards}"
